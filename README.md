@@ -20,7 +20,7 @@ Ce projet utilise le dataset **California Housing** pour prédire la valeur méd
 
 ## 🧰 Technologies
 
-- Python 3.x
+- Python 3.11
 - [scikit-learn](https://scikit-learn.org/)
 - pandas / numpy
 - matplotlib / seaborn
