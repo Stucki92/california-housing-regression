@@ -39,12 +39,6 @@ Ce projet utilise le dataset **California Housing** pour prédire la valeur méd
 
 ---
 
-## 🔍 Exemple de prédiction
-
-![graph](assets/ridge_predictions.png)
-
----
-
 ## 🚀 Pour exécuter ce projet
 
 1. Cloner ce repo :
@@ -55,4 +49,4 @@ git clone https://github.com/stucki92/california-housing-regression.git
 pip install -r requirements.txt
 
 3. Lance le notebook :
-jupyter notebook california_housing.ipynb
+jupyter notebook housing_california.ipynb
