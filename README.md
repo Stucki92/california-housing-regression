@@ -12,6 +12,11 @@ Ce projet utilise le dataset **California Housing** pour prédire la valeur méd
   - Régression linéaire
   - Ridge Regression
   - Lasso Regression
+  - Decision Tree Regression
+  - Random Forest Regression
+  - SVR
+  - Gradient Boosting Regression
+  - XGBoost Regression
 - Évaluation (MSE, R², cross-validation)
 - Optimisation des hyperparamètres (`GridSearchCV`)
 - Visualisation des prédictions
@@ -24,16 +29,24 @@ Ce projet utilise le dataset **California Housing** pour prédire la valeur méd
 - [scikit-learn](https://scikit-learn.org/)
 - pandas / numpy
 - matplotlib / seaborn
+- xgboost
+- shap
 
 ---
 
 ## 📊 Résultats
 
-| Modèle            | R² Score |
-|-------------------|----------|
-| LinearRegression  | 0.57     |
-| Ridge (best alpha)| 0.57     |
-| Lasso (best alpha)| 0.58     |
+| Modèle                       | R² Score |
+|------------------------------|----------|
+| LinearRegression             | 0.57     |
+| Ridge (best alpha)           | 0.57     |
+| Lasso (best alpha)           | 0.58     |
+| Decision Tree Regression     | 0.65     |
+| Random Forest Regression     | 0.71     |
+| SVR                          | 0.75     |
+| Gradient Boosting Regression | 0.84     |
+| XGBoost Regression           | 0.84     |
+
 
 > Ces résultats peuvent varier légèrement selon les splits / machines.
 
